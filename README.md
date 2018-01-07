@@ -14,3 +14,9 @@ below (check the appropriate directories for full licence details):
 * ./modules: pre-built modules for kernel.img
 * ./opt/vc: includes userspace libraries for the VideCoreIV (EGL/GLES/OpenVG 
    etc). See ./opt/vc/LICENCE for licencing terms
+
+
+
+!!! You need to move "firmware/modules" directory to your future system's "usr/lib/"
+!!! Same, you need to move "firmware/boot" dir to system's "/boot"
+!!! "/boot" should be formatted as vfat (fat32 or fat16)
